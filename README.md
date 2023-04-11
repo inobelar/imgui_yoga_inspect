@@ -3,6 +3,9 @@
 Tiny library for Yoga's layout visualization & inspection nodes properties with
 Dear ImGui.
 
+- [Example of usage](https://github.com/inobelar/emscripten_samples/tree/main/samples/sample_Yoga_Playground)
+- [**Web demo**](https://inobelar.github.io/emscripten_samples/sample_Yoga_Playground.html)
+
 ## Dependencies
 
 - [Dear ImGui](https://github.com/ocornut/imgui)
