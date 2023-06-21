@@ -1,4 +1,6 @@
 #[[
+    CMake project include file
+
     # Example of usage
 
     Add into your CMakeLists.txt the next lines:

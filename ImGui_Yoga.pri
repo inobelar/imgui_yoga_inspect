@@ -1,3 +1,12 @@
+# QMake project include file
+#
+# Example of usage
+#
+# Add into your *.pro project file the next line:
+#
+#   include(/path/to/imgui_yoga_inspect/ImGui_Yoga.pri)
+#
+
 INCLUDEPATH += \
     $$PWD/include
     
