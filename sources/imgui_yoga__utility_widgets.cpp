@@ -12,14 +12,15 @@ void ImGui_Yoga::HelpMarker(const char* description)
     ImGui::TextDisabled("(?)");
     if (ImGui::IsItemHovered())
     {
-        ImGui::BeginTooltip();
+        if (ImGui::BeginTooltip())
         {
             ImGui::PushTextWrapPos(ImGui::GetFontSize() * 35.0f);
             {
                 ImGui::TextUnformatted(description);
             }
             ImGui::PopTextWrapPos();
+
+            ImGui::EndTooltip();
         }
-        ImGui::EndTooltip();
     }
 }
