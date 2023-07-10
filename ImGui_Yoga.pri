@@ -6,9 +6,10 @@
 #
 #   include(/path/to/imgui_yoga_inspect/ImGui_Yoga.pri)
 #
+# NOTE: content is based on ImGui_Yoga.cmake
 
 INCLUDEPATH += \
-    $$PWD/include
+    $$PWD/include/
     
 HEADERS += \
     $$PWD/include/ImGui_Yoga/enums.hpp \
