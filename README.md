@@ -1,6 +1,6 @@
 # ImGui Yoga inspection utils
 
-Tiny library for Yoga's layout visualization & inspection nodes properties with
+Tiny library for Yoga's layout visualization & nodes properties inspection with
 Dear ImGui.
 
 - [Example of usage](https://github.com/inobelar/emscripten_samples/tree/main/samples/sample_Yoga_Playground)
