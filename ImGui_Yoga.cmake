@@ -7,9 +7,8 @@
 
     # --------------------------------------------------------------------------
 
-    # Add 'ImGui_Yoga' into modules search path - to find this file (ImGui_Yoga.cmake)
-    list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/path/to/imgui_yoga_inspect/")
-    include(ImGui_Yoga)
+    # Add 'ImGui_Yoga' file (to get variables)
+    include("/path/to/imgui_yoga_inspect/ImGui_Yoga.cmake")
 
     add_executable( <YOUR_EXECUTABLE>
         # ...
